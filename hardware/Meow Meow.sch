@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Meow Meow-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -383,21 +383,6 @@ SDA
 Text Label 2340 2055 2    60   ~ 0
 SCL
 $Comp
-L Meow-Meow-rescue:ATSAMD21G18A-AU-MeowMeow U1
-U 1 1 5AFC6E86
-P 3195 3255
-F 0 "U1" H 2595 4976 50  0000 L BNN
-F 1 "ATSAMD21G18A-AU" H 2594 1451 50  0000 L BNN
-F 2 "Housings_QFP:TQFP-48_7x7mm_Pitch0.5mm" H 3195 3255 50  0001 L BNN
-F 3 "3.01 USD" H 3195 3255 50  0001 L BNN
-F 4 "Microchip" H 3195 3255 50  0001 L BNN "Campo4"
-F 5 "TQFP-48 Microchip" H 3195 3255 50  0001 L BNN "Campo5"
-F 6 "SAMD21G Series 256 kB Flash 32 kB SRAM 48 MHz 32-Bit Microcontroller - TQFP-48" H 3195 3255 50  0001 L BNN "Campo6"
-F 7 "ATSAMD21G15A-AU" H 3195 3255 50  0001 L BNN "Part#"
-	1    3195 3255
-	1    0    0    -1  
-$EndComp
-$Comp
 L Meow-Meow-rescue:USB_OTG-MeowMeow P9
 U 1 1 5AFC70FD
 P 7935 3360
@@ -642,11 +627,11 @@ F 3 "" H 1835 1855 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Meow-Meow-rescue:GND-MeowMeow #PWR020
+L Meow_Meow-rescue:GND-MeowMeow #PWR020
 U 1 1 5B0727F0
 P 1590 1675
 F 0 "#PWR020" H 1590 1425 50  0001 C CNN
-F 1 "GND" H 1590 1525 50  0000 C CNN
+F 1 "GND-MeowMeow" H 1590 1525 50  0000 C CNN
 F 2 "" H 1590 1675 50  0000 C CNN
 F 3 "" H 1590 1675 50  0000 C CNN
 	1    1590 1675
@@ -900,7 +885,7 @@ U 1 1 5B590A39
 P 9085 3395
 F 0 "J3" H 9135 3495 50  0000 C CNN
 F 1 "SWD" H 9135 3195 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x02_Pitch2.54mm_SMD" H 9085 3395 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical_SMD" H 9085 3395 50  0001 C CNN
 F 3 "" H 9085 3395 50  0001 C CNN
 	1    9085 3395
 	1    0    0    -1  
@@ -937,4 +922,19 @@ Wire Wire Line
 	9831 3395 9831 3431
 Wire Wire Line
 	9385 3395 9831 3395
+$Comp
+L Meow-Meow-rescue:ATSAMD21G18A-AU-MeowMeow U1
+U 1 1 5AFC6E86
+P 3195 3255
+F 0 "U1" H 2595 4976 50  0000 L BNN
+F 1 "ATSAMD21G18A-AU" H 2594 1451 50  0000 L BNN
+F 2 "Housings_QFP:TQFP-48_7x7mm_Pitch0.5mm" H 3195 3255 50  0001 L BNN
+F 3 "3.01 USD" H 3195 3255 50  0001 L BNN
+F 4 "Microchip" H 3195 3255 50  0001 L BNN "Campo4"
+F 5 "TQFP-48 Microchip" H 3195 3255 50  0001 L BNN "Campo5"
+F 6 "SAMD21G Series 256 kB Flash 32 kB SRAM 48 MHz 32-Bit Microcontroller - TQFP-48" H 3195 3255 50  0001 L BNN "Campo6"
+F 7 "ATSAMD21G15A-AU" H 3195 3255 50  0001 L BNN "Part#"
+	1    3195 3255
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
