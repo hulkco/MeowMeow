@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name MeowMeow)(type Legacy)(uri ${KIPRJMOD}/Library/MeowMeow.lib)(options "")(descr ""))
+  (lib (name Meow_Meow-rescue)(type Legacy)(uri "${KIPRJMOD}/Meow Meow-rescue.lib")(options "")(descr ""))
+  (lib (name Meow-Meow-rescue)(type Legacy)(uri ${KIPRJMOD}/Meow-Meow-rescue.lib)(options "")(descr ""))
+)
