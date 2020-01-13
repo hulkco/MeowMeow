@@ -75358,210 +75358,208 @@ hardware_spain
 629105150521
 <b>629105150521</b><p>
 WR-COM_USB_Micro Type B_Horizontal_SMT Micro Type B Horizontal SMT - 3A current at Pin1 & Pin 5 - with Pegs and THT shielding Pins  - T&R Packaging
-
+0
 0
 9
 6
 hardware_spain
 C_0805_HandSoldering
 Capacitor SMD 0805, hand soldering
-capacitor 0805
+0
 0
 2
 2
 hardware_spain
 LED_0805_HandSoldering
 Resistor SMD 0805, hand soldering
-resistor 0805
+0
 0
 2
 2
 hardware_spain
 LOGO
 
-
+0
 0
 0
 0
 hardware_spain
 Pin_Header_Straight_2x02_Pitch2.54mm_SMD
 surface-mounted straight pin header, 2x02, 2.54mm pitch, double rows
-Surface mounted pin header SMD 2x02 2.54mm double row
+0
 0
 4
 4
 hardware_spain
 Pin_Header_Straight_2x03_Pitch2.54mm_SMD
 surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows
-Surface mounted pin header SMD 2x03 2.54mm double row
+0
 0
 6
 6
 hardware_spain
 R_0805_HandSoldering
 Resistor SMD 0805, hand soldering
-resistor 0805
+0
 0
 2
 2
 hardware_spain
 R_1812_HandSoldering
 Resistor SMD 1812, hand soldering, Panasonic (see ERJ12)
-resistor 1812
+0
 0
 2
 2
 hardware_spain
 SEWALLI_renew
 
-
+0
 0
 187
 1
 hardware_spain
 SOT-223-3Lead_TabPin2
 module CMS SOT223 4 pins
-CMS SOT
+0
 0
 4
 3
 hardware_spain
 SW_SPST_TL3342
 Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
-SPST Tactile Switch
+0
 0
 4
 2
 hardware_spain
 TQFP-48_7x7mm_Pitch0.5mm
 48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)
-QFP 0.5
+0
 0
 48
 48
 hardware_spain
 WEEE-Logo_4.2x6mm_SilkScreen
 Waste Electrical and Electronic Equipment Directive
-Logo WEEE
+0
 0
 0
 0
 hardware_spain
 electronic_cats_logo_8x6
 
-
+0
 0
 0
 0
 hardware_spain
 svg2mod
 Imported from heart.svg
-svg2mod
+0
 0
 0
 0
 meow_meow
 629105150521
 <b>629105150521</b><p>
-WR-COM_USB_Micro Type B_Horizontal_SMT Micro Type B Horizontal SMT - 3A current at Pin1 & Pin 5 - with Pegs and THT shielding Pins  - T&R Packaging
-
+0
+0
 0
 9
 6
 meow_meow
 C_0805_HandSoldering
-Capacitor SMD 0805, hand soldering
-capacitor 0805
+0
+0
 0
 2
 2
 meow_meow
 LED_0805_HandSoldering
-Resistor SMD 0805, hand soldering
-resistor 0805
+0
+0
 0
 2
 2
 meow_meow
 LOGO
-
-
+0
+0
 0
 0
 0
 meow_meow
 Pin_Header_Straight_2x02_Pitch2.54mm_SMD
-surface-mounted straight pin header, 2x02, 2.54mm pitch, double rows
-Surface mounted pin header SMD 2x02 2.54mm double row
+0
+0
 0
 4
 4
 meow_meow
 Pin_Header_Straight_2x03_Pitch2.54mm_SMD
-surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows
-Surface mounted pin header SMD 2x03 2.54mm double row
+0
+0
 0
 6
 6
 meow_meow
 R_0805_HandSoldering
-Resistor SMD 0805, hand soldering
-resistor 0805
+0
+0
 0
 2
 2
 meow_meow
 R_1812_HandSoldering
-Resistor SMD 1812, hand soldering, Panasonic (see ERJ12)
-resistor 1812
+0
+0
 0
 2
 2
 meow_meow
 SEWALLI_renew
-
-
+0
+0
 0
 187
 1
 meow_meow
 SOT-223-3Lead_TabPin2
-module CMS SOT223 4 pins
-CMS SOT
+0
+0
 0
 4
 3
 meow_meow
 SW_SPST_TL3342
-Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
-SPST Tactile Switch
+0
+0
 0
 4
 2
 meow_meow
 TQFP-48_7x7mm_Pitch0.5mm
-48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)
-QFP 0.5
+48
+0
 0
 48
 48
 meow_meow
 WEEE-Logo_4.2x6mm_SilkScreen
-Waste Electrical and Electronic Equipment Directive
-Logo WEEE
+0
+0
 0
 0
 0
 meow_meow
 electronic_cats_logo_8x6
-
-
+0
+0
 0
 0
 0
 meow_meow
-svg2mod
-Imported from heart.svg
 svg2mod
 0
 0
