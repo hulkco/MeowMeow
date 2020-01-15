@@ -1,0 +1,13 @@
+(module Caiman_Conn_2 (layer F.Cu) (tedit 5E1A897D)
+  (descr "Caiman Connector")
+  (fp_text reference REF** (at 0.2794 -5.6388 180) (layer F.Fab) hide
+    (effects (font (size 1.524 1.524) (thickness 0.15)))
+  )
+  (fp_text value Caiman_Conn_2 (at 0.0762 6.5786 180) (layer F.Fab)
+    (effects (font (size 1.524 1.524) (thickness 0.15)))
+  )
+  (pad "" smd oval (at -0.3302 0.0254) (size 4.24 8.68) (layers F.Cu F.Mask))
+  (pad 1 thru_hole circle (at -0.319654 -2.191014) (size 4.216 4.216) (drill 3.2) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at -0.309654 2.258986 180) (size 4.216 4.216) (drill 3.2) (layers *.Cu *.Mask))
+  (pad "" smd oval (at -0.3302 0.0254) (size 4.24 8.68) (layers B.Cu B.Mask))
+)

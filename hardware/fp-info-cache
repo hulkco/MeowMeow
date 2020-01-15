@@ -1,1 +1,134 @@
+29991441217216
+Prototipo_001
+ALLIGATORCLIP
+
+
+0
+2
+1
+Prototipo_001
+C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Prototipo_001
+C_0805_HandSoldering
+Capacitor SMD 0805, hand soldering
+capacitor 0805
+0
+2
+2
+Prototipo_001
+Caiman_Conn
+Caiman Connector
+
+0
+4
+1
+Prototipo_001
+LED_0805_HandSoldering
+Resistor SMD 0805, hand soldering
+resistor 0805
+0
+2
+2
+Prototipo_001
+LOGO
+
+
+0
+0
+0
+Prototipo_001
+Pin_Header_Straight_2x02_Pitch2.54mm_SMD
+surface-mounted straight pin header, 2x02, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x02 2.54mm double row
+0
+4
+4
+Prototipo_001
+Pin_Header_Straight_2x03_Pitch2.54mm_SMD
+surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x03 2.54mm double row
+0
+6
+6
+Prototipo_001
+R_0805_HandSoldering
+Resistor SMD 0805, hand soldering
+resistor 0805
+0
+2
+2
+Prototipo_001
+R_1812_HandSoldering
+Resistor SMD 1812, hand soldering, Panasonic (see ERJ12)
+resistor 1812
+0
+2
+2
+Prototipo_001
+SEWALLI_renew
+
+
+0
+187
+1
+Prototipo_001
+SOT-223-3Lead_TabPin2
+module CMS SOT223 4 pins
+CMS SOT
+0
+4
+3
+Prototipo_001
+SW_SPST_B3U-1000P-B
+Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, with Boss
+Tactile Switch
+0
+2
+2
+Prototipo_001
+SW_SPST_TL3342
+Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
+SPST Tactile Switch
+0
+4
+2
+Prototipo_001
+TQFP-48_7x7mm_Pitch0.5mm
+48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)
+QFP 0.5
+0
+48
+48
+Prototipo_001
+USB_Micro-B_Wuerth_629105150521
+<b>629105150521</b><p>WR-COM_USB_Micro Type B_Horizontal_SMT Micro Type B Horizontal SMT - 3A current at Pin1 & Pin 5 - with Pegs and THT shielding Pins  - T&R Packaging
+
+0
+9
+6
+Prototipo_001
+WEEE-Logo_4.2x6mm_SilkScreen
+Waste Electrical and Electronic Equipment Directive
+Logo WEEE
+0
+0
+0
+Prototipo_001
+electronic_cats_logo_8x6
+
+
+0
+0
+0
+Prototipo_001
+svg2mod
+Imported from heart.svg
+svg2mod
+0
+0
 0

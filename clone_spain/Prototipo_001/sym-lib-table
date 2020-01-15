@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Meow-Meow-rescue)(type Legacy)(uri /home/greynaga/Github/MeowMeow/hardware/Meow-Meow-rescue.lib)(options "")(descr ""))
+  (lib (name Meow_Meow-rescue)(type Legacy)(uri "/home/greynaga/Github/MeowMeow/hardware/Meow Meow-rescue.lib")(options "")(descr ""))
+)
