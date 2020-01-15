@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://www.circuitar.com/nanoshields/modules/adc-4-20/ -->
+<html lang="en" class=" js no-touch csstransforms csstransforms3d csstransitions svg"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <title>ADC 4-20 - Module for measuring sensors with output from 4mA to 20mA - Arduino-compatible shields - Circuitar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="&lt;ul class=&quot;product-features&quot;&gt;
+&lt;li&gt;625nA resolution (25600 levels)&lt;/li&gt;
+&lt;li&gt;860 samples per second&lt;/li&gt;
+&lt;li&gt;Measurement of up to 4 sensors per module&lt;/li&gt;
+...">
+    <meta name="author" content="">
+
+	<!-- Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+	<link href="https://www.circuitar.com/static/images/favicon.ico" rel="shortcut icon">
+    <link href="./ADC 4-20mA_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./ADC 4-20mA_files/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="./ADC 4-20mA_files/bootstrap-lightbox.min.css" rel="stylesheet">
+    <link href="./ADC 4-20mA_files/flexslider.css" rel="stylesheet">
+    <link href="./ADC 4-20mA_files/style.css" rel="stylesheet">
+    <link href="./ADC 4-20mA_files/circuitar.css" rel="stylesheet">
+
+    <!--[if IE 9]>
+		<style>.img-mask .flipper {display: none;}</style>
+	<![endif]-->
+    <!--[if IE 8]>
+		<style>.boxy{position:relative;width:150px;height:150px;}.flipper {overflow: hidden;}.subscribe input[type="text"], .subscribe textarea {width: 35%;}.plan-background {background-position: center;background-repeat: repeat-x;border:none;} .sign-background {background-position: center;background-repeat: repeat-x;border:none;}.countdown-background {background-position: center;background-repeat: repeat-x;border:none;}.page-title {background-position: center;background-repeat: repeat-x;border:none;}.img-mask .flipper {display: none;}</style>
+	<![endif]-->
+
+    <script async="" src="./ADC 4-20mA_files/analytics.js"></script><script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-41552193-2', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+
+<body style="">
+
+<header id="header">
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="https://www.circuitar.com/index.html"><img src="./ADC 4-20mA_files/circuitar_logo.png" width="184" height="40"></a>
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <div id="top-navigation" class="nav-collapse subnav-collapse collapse">
+                    <ul class="nav">
+                        <li><a class="active" href="https://www.circuitar.com/nanoshields/modules/index.html">Products</a></li>
+                        <li><a href="https://www.circuitar.com/projects/index.html">Projects</a></li>
+                        <li><a href="https://www.circuitar.com/tutorials/index.html">Tutorials</a></li>
+                        <li class="dropdown">
+                            <a href="https://www.circuitar.com/nanoshields/modules/index.html" class="dropdown-toggle" data-toggle="dropdown">Nanoshields <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.circuitar.com/nanoshields/index.html">What is it?</a></li>
+                                <li><a href="https://www.circuitar.com/nanoshields/how-to-use/index.html">How to use</a></li>
+                                <li><a href="https://www.circuitar.com/nanoshields/modules/index.html">Modules</a></li>
+                                <li><a href="https://github.com/circuitar" target="_blank">Software</a></li>
+                                <li><a href="https://www.circuitar.com/nanoshields/pinout/index.html">Pinout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav pull-right">
+                        <li><a class="btn btn-success btn-color" href="https://www.tindie.com/stores/EletroShields/" target="_blank"><strong>Buy</strong></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="main">
+
+
+    <div id="lightbox-content" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="lightbox-content">
+            <a href="https://www.circuitar.com/nanoshields/modules/adc-4-20/#lightbox-content" data-toggle="lightbox">
+                <img src="./ADC 4-20mA_files/saved_resource">
+            </a>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="lightbox-content">
+            <div class="carousel slide" id="lightbox-carousel" data-interval="">
+                <div class="carousel-inner">
+
+                        <div class="active item">
+                            <div class="inner-item">
+                                <a data-toggle="lightbox" href="https://www.circuitar.com/nanoshields/modules/adc-4-20/#lightbox">
+                                    <img src="./ADC 4-20mA_files/adc-4-20.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="select-portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <div id="options">
+                        <ul>
+                            <li><a class="btn btn-color tag " href="https://www.circuitar.com/nanoshields/modules/index.html">All</a></li>
+
+                                <li>
+                                    <a class="btn btn-color tag" href="https://www.circuitar.com/nanoshields/modules/index1cec.html?c=actuators">
+                                        Actuators
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="btn btn-color tag" href="https://www.circuitar.com/nanoshields/modules/index79bd.html?c=networking">
+                                        Networking
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="btn btn-color tag" href="https://www.circuitar.com/nanoshields/modules/indexcea1.html?c=connections">
+                                        Connections
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="btn btn-color tag" href="https://www.circuitar.com/nanoshields/modules/indexfbba.html?c=power">
+                                        Power
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="btn btn-color tag" href="https://www.circuitar.com/nanoshields/modules/indexb0f2.html?c=ui">
+                                        User Interface
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="btn btn-color tag" href="https://www.circuitar.com/nanoshields/modules/index5670.html?c=storage">
+                                        Storage
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="btn btn-color tag" href="https://www.circuitar.com/nanoshields/modules/index8e84.html?c=processor">
+                                        Processor
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="btn btn-color tag" href="https://www.circuitar.com/nanoshields/modules/indexbcd5.html?c=prototyping">
+                                        Prototyping
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a class="btn btn-color tag" href="https://www.circuitar.com/nanoshields/modules/index5dd7.html?c=sensors">
+                                        Sensors
+                                    </a>
+                                </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-portfolio-item">
+        <div class="container">
+            <div class="row">
+                <div class="span10 offset1">
+                    <div class="page-content">
+                        <div class="carousel-container">
+                            <div class="carousel slide" id="page-carousel" data-interval="">
+                                <div class="carousel-inner">
+
+                                        <div class="active item">
+                                            <div class="inner-item">
+                                                <a class="page-carousel-image" data-toggle="lightbox" href="https://www.circuitar.com/nanoshields/modules/adc-4-20/#lightbox" data-position="0">
+                                                    <img src="./ADC 4-20mA_files/cb6ba50c5e049751d447913bf1357e05.jpg" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                </div>
+
+                            </div>
+
+                                <div class="centered model-btn">
+                                    <a class="btn btn-primary">
+                                        View 3D model
+                                    </a>
+                                </div>
+
+                            <div class="centered">
+                                <a class="btn btn-success btn-large" href="https://www.tindie.com/stores/EletroShields/" target="_blank">
+                                    Buy
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-title">
+                            <h1>ADC 4-20</h1>
+                            <h4>Module for measuring sensors with output from 4mA to 20mA</h4>
+                        </div>
+                        <div class="product-description description"><ul class="product-features">
+<li>625nA resolution (25600 levels)</li>
+<li>860 samples per second</li>
+<li>Measurement of up to 4 sensors per module</li>
+<li>Up to 4 modules simultaneously, adding up 16 sensors</li>
+<li>RC Filter in every channel</li>
+</ul>
+
+<p>The ADC 4-20 Nanoshield offers a solution for applications in which it is necessary to measure sensors with 4mA to 20mA output with high precision and resolution. </p>
+<p>There is a large number of sensors with output ranging from 4mA to 20mA available on the market (they are commonly called transmitters). The most common ones are the pressure sensor, the temperature sensor, the humidity sensor, among others. Sensors with output ranging from 4mA to 20mA are largely used in industrial processes. Some advantages that arise with the usage of theses sensors are: </p>
+<ul>
+<li>There are no significant losses on the wiring, enabling the connection of only one pair of wires with long length.</li>
+<li>Robust signal transmission, with high immunity to noise.</li>
+<li>Possibility of detection of flaws on the wiring.</li>
+</ul>
+<p>Implemented with the ADS1115 IC, the ADC 4-20 Nanoshield provides 25600 measuring points on the scale of 4mA to 20mA, with resolution of 625nA (0,000000625A). Optionally, the module can also be used for measuring sensors with output of 0 to 20mA (the maximum recommended current is 30mA). </p>
+<h2 data-toggle="collapse" data-target="#collapse0" class="section-heading anchor"><span id="connecting-the-sensors"></span>Connecting the sensors</h2><div class="collapse in" id="collapse0"><p>The ADC 4-20 Nanoshield features a screw terminal with 4 independent analog inputs. They are named A0, A1, A2 and a3. To each input the output terminal of the corresponding sensor must be connected.</p><p>There is also a fifth signal present on the screw terminal, named SUP. To this pin the other terminal of the sensor (responsible for its power supply and the full current loop) must be connected.</p><p>There are two ways to power the sensor. The first is by using the same power supply that powers Arduino and the rest of the set. The second is using an exclusive power supply for powering the sensor. The choice of the use mode is made using the configuration jumper, also named SUP. </p><p>The following sections show the two ways to connect the sensor.</p><h3 data-toggle="collapse" data-target="#collapse1" class="section-heading anchor"><span id="sensor-being-powered-by-only-one-power-supply"></span>Sensor being powered by only one power supply</h3><div class="collapse in" id="collapse1"><p>In this setup, the power supply to Arduino is the same that powers the sensor. In order to use this setup, it is necessary to close the configuration jumper SUP on the VIN position. This way, the supply voltage (called VIN on Arduino) is directly connected to the SUP terminal on the screw terminal and powers the sensor directly. </p><p>The figure below shows how to do this setup.</p><p><img alt="ADC" src="./ADC 4-20mA_files/8e5859fd597296eac28cf8e85692b001.png">
+</p><div class="img-caption">Connection of the sensor that is powered by the same supply that powers Arduino</div><p></p><p>Unlike other modules that are devoted to measuring sensors from 4mA to 20mA, the ADC 4-20 Nanoshield features a low resistance value in order to convert the current to a voltage level that can be read by the ADC. This value is 150 Ohms, causing a voltage drop of only 3V on the resistor in the situation in which the output current of the sensor is maximum (20mA).</p><p>This means less losses and a greater amount of the supply voltage can be used to power the sensor. It you are using a 12V power supply, for example, 3V is lost on the resistor and there are still 9V available to power the sensor. A lot of sensors on the market are specified for being powered by 8V or more, being it possible to use them along with a standard 12V power supply.   </p></div><h3 data-toggle="collapse" data-target="#collapse2" class="section-heading anchor"><span id="connecting-the-sensor-with-an-independent-power-supply"></span>Connecting the sensor with an independent power supply</h3><div class="collapse in" id="collapse2"><p>In this kind of setup, the sensor is powered by an exclusive power supply. That is, you will use a power supply for the sensors and another for the Arduino (which can also be powered via USB port). This setup is useful when the sensors require a supply voltage that is different from the Arduino standard (7 to 12V). We can mention as an example the sensors that need to be powered by a 24V power supply. In this case you use the 24V power supply for the sensors and power Arduino with a standard power supply of 7 to 12V, or through the USB port (for other suggestions on how to power the Arduino with a 24V power supply, check out our <a href="https://www.circuitar.com/nanoshields/modules/powerldo/index.html">PowerLDO Nanoshield</a>).</p><p>In order to use this setup, it is necessary to close the configuration jumper SUP on the GND position. This way, the SUP terminal of the screw terminal becomes directly connected to the GND of the module, serving as the return of the current on the loop. </p><p>The figure below shows how to use this setup.</p><p><img alt="ADC" src="./ADC 4-20mA_files/22702f46f0c34894d91ccaa7fe10d669.png">
+</p><div class="img-caption">Connection of the sensors powered with an independent power supply</div><p></p></div></div>
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+<h2 data-toggle="collapse" data-target="#collapse3" class="section-heading anchor"><span id="connection-with-arduino-base-board-uno"></span>Connection with Arduino + Base Board Uno</h2><div class="collapse in" id="collapse3"><p>The easiest way to use the ADC 4-20 Nanoshield along with an Arduino is by using a <a href="https://www.circuitar.com/store/product/97/index.html">Base Board Uno</a> or <a href="https://www.circuitar.com/store/product/98/index.html">Base Board L Uno</a>. You just have to assemble the boards and then load our sample code in order to check the system working (see the <a href="https://www.circuitar.com/nanoshields/modules/adc-4-20/#cdigo-de-exemplo">sample code</a> section at the bottom of the page). This assembly can be used with Arduino UNO, Mega R3, Duemilanove, among others (contact us in case you have doubts about the compatibility with other versions). The figure below shows how the setup looks like. </p><p><img alt="" src="./ADC 4-20mA_files/0e3149f4d71e26c0f3a4d9f48ff9fed0.jpg">
+</p><div class="img-caption">Connection with Arduino using the Base Board Uno (click on the image to zoom)</div><p></p></div>
+
+
+<h2 data-toggle="collapse" data-target="#collapse4" class="section-heading anchor"><span id="connection-with-base-boarduino"></span>Connection with Base Boarduino</h2><div class="collapse in" id="collapse4"><p>It is also possible to connect the ADC 4-20 Nanoshield directly to our Arduino-compatible board, the <a href="https://www.circuitar.com/nanoshields/modules/base-boarduino/index.html">Base Boarduino</a>. The connection is done the same way as with the Base Board, such as illustrated below. You just have to assemble the boards and then load our sample code in order to check the system working. (see the <a href="https://www.circuitar.com/nanoshields/modules/adc-4-20/#cdigo-de-exemplo">sample code</a> section at the bottom of the page).</p><p><img alt="" src="./ADC 4-20mA_files/540934bb305eab487ff4544b7cb38c18.jpg">
+</p><div class="img-caption">Connection with the Base Boarduino (click on the image to zoom)</div><p></p></div>
+
+
+<h2 data-toggle="collapse" data-target="#collapse5" class="section-heading anchor"><span id="direct-connection-with-arduino"></span>Direct connection with Arduino</h2><div class="collapse in" id="collapse5"><p>It is also possible to use the module with direct assembly, using a breadboard and jumper wires for the connection. Use the following schematics in order to connect the ADC Nanoshield to an Arduino UNO or Arduino Mega. </p><p><img alt="" src="./ADC 4-20mA_files/08f7487bf6bfbabb7522bfd5c00fb162.png">
+</p><div class="img-caption">Connection using an Arduino UNO (click on the image to zoom)</div><p></p><p><img alt="" src="./ADC 4-20mA_files/b17f7b25438089cf870a389bc07aa13e.png">
+</p><div class="img-caption">Connection using an Arduino MEGA (click on the image to zoom)</div><p></p></div>
+
+
+
+<h2 data-toggle="collapse" data-target="#collapse6" class="section-heading anchor"><span id="using-several-modules-simultaneously"></span>Using several modules simultaneously</h2><div class="collapse in" id="collapse6"><p>The ADC 4-20 Nanoshield communicates with the microcontroller through an I2C communication bus. One advantage of the I2C bus is the possibility to use several modules simultaneously, using only 2 microcontroller pins: one for the clock transmission (SCL) and another for data transmission (SDA). </p><p>Each module that is connected to an I2C bus needs an unique address, so that the modules won't cause conflicts among themselves. The ADC Nanoshield features 4 address options that are selectable via jumper on the upper part of the board, allowing up to 4 modules to be used at once, totalling up to 16 independent channels and using only 2 pins of the microcontroller. The figure below shows where the address selection jumpers are located. </p><p><img alt="" src="./ADC 4-20mA_files/32449316d7d54c3c75e7ab83678ab07a.png">
+</p><div class="img-caption">Jumpers for I2C address selection</div><p></p><p>The module address on the I2C bus has 5 fixed bits (10010) and other two configurable bits. Through the jumpers, it is possible to setup which the last two bits are going to be. The options are: 00, 01, 10 and 11. In order to select, just close the jumper corresponding to the desired address, leaving the others open (the factory standard is 00). This way, the complete address of the module can be 1001000 (standard), 1001001, 1001010 ou 1001011.</p><p>The figure below shows a setup of 4 modules that are being used at the same time. In this example, we use a <a href="https://www.circuitar.com/store/product/97/index.html">Base Board UNO</a> along with an Arduino Mega.</p><p><img alt="" src="./ADC 4-20mA_files/30afeb0969876013b442bbb4df5f696b.jpg">
+</p><div class="img-caption">Using various modules at once (click on the image to zoom)</div><p></p></div>
+
+
+
+
+
+
+<h2 data-toggle="collapse" data-target="#collapse7" class="section-heading anchor"><span id="available-configurations"></span>Available configurations</h2><div class="collapse in" id="collapse7"><h3 data-toggle="collapse" data-target="#collapse8" class="section-heading anchor"><span id="operation-with-33v"></span>Operation with 3.3V</h3><div class="in collapse" id="collapse8" style="height: auto;"><p>The ADC 4-20 Nanoshield can also be configured to work with 3.3V power supply. This configuration is useful when one wants to use the module along with other boards that work with 3.3V, such as Arduino Zero, Arduino DUE, among others.</p><p>In order to change the module’s operating voltage, it is necessary to change the solder jumper called POWER, which is located on the upper part of the board. The figure below shows how to change it:</p><p><img alt="ADC" src="./ADC 4-20mA_files/c4c579102f0ef2a4076f841873460eb5.png">
+</p><div class="img-caption">Power supply configuration for the ADC Nanoshield</div><p></p><p>This change is only necessary if the module is being used along with the Base Board or Base Board L. In case you are using the module connected by jumper wires, you only have to connect the module’s VCC pin directly to the power supply of 3.3V.</p><p><em>Circuitar can send your modules pre-configured. Contact us for more information.</em></p></div></div>
+
+
+
+ 
+
+
+<h2 data-toggle="collapse" data-target="#collapse9" class="section-heading anchor"><span id="additional-resources"></span>Additional resources</h2><div class="collapse in" id="collapse9"><h3 data-toggle="collapse" data-target="#collapse10" class="section-heading anchor"><span id="internal-comparator"></span>Internal comparator</h3><div class="in collapse" id="collapse10" style="height: auto;"><p>The chip features a programmable internal comparator that can be configured to generate an alert when the voltage value on the analog input exceeds some certain limit that was previously configured by the user. This way, the module can “warn" the microcontroller about a desired event through an interrupt, thus not being necessary to keep measuring the input continuously. </p><p>The alert signal is sent over pin 3 on Arduino (on the ADC Nanoshield, this pin is named “ale”). This function comes factory-disabled and in order to activate it, it is necessary to close the solder jumper named ALERT, which is located on the upper part of the board. </p></div></div>
+
+
+
+<h2 data-toggle="collapse" data-target="#collapse11" class="section-heading anchor"><span id="block-diagram"></span>Block Diagram</h2><div class="in collapse" id="collapse11" style="height: auto;"><p>The ADC 4-20 Nanoshield communicates with the processor over an I2C bus, which uses only 2 pins. The block diagram below illustrates how the module works. </p><p><img alt="ADC" src="./ADC 4-20mA_files/e49c745d4a819751647163d8187c5395.png">
+</p><div class="img-caption">Block diagram of the ADC Nanoshield</div><p></p><p>Each input on the ADC 4-20 Nanoshield features a low-pass RC filter with cutoff frequency at about 480Hz. The filter features the functions of anti-aliasing and noise reduction on the analog inputs. </p></div>
+
+
+
+<h2 data-toggle="collapse" data-target="#collapse12" class="section-heading anchor"><span id="electrical-characteristics"></span>Electrical Characteristics</h2><div class="in collapse" id="collapse12" style="height: auto;"><ul>
+<li>
+<p>Power Supply: is provided through the VCC pin with a range from 4.5V to 5.5V (5V typical). Optionally, the board can be powered using the 3V3 pin, with a range from 3V to 3.6V. For that purpose it is necessary to change the jumper POWER (see the instructions on the schematics).</p>
+</li>
+<li>
+<p>Current Consumption: the maximum current consumption is 300uA.</p>
+</li>
+<li>
+<p>Logic Levels: the I2C communication and the output ALERT signal (optional) come factory-configured to work with logic level of 5V.</p>
+</li>
+<li>
+<p>Measuring range: The maximum measuring range is from 0 to 30mA.</p>
+</li>
+</ul></div>
+
+<h2 data-toggle="collapse" data-target="#collapse13" class="section-heading anchor"><span id="pinout"></span>Pinout</h2><div class="in collapse" id="collapse13" style="height: auto;"><p>The table below describes the function of each of the used signals, as well as the correspondence with the pins on Arduino UNO and Arduino MEGA.</p><table class="table table-bordered">
+<thead>
+<tr>
+<th align="center" style="text-align: center;">Signal</th>
+<th align="center" style="text-align: center;">Arduino UNO</th>
+<th align="center" style="text-align: center;">Arduino MEGA</th>
+<th align="center" style="text-align: center;">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" style="text-align: center;">ale</td>
+<td align="center" style="text-align: center;">3</td>
+<td align="center" style="text-align: center;">3</td>
+<td align="center" style="text-align: center;">Comparator output or end of conversion (optional)</td>
+</tr>
+<tr>
+<td align="center" style="text-align: center;">SDA</td>
+<td align="center" style="text-align: center;">A4</td>
+<td align="center" style="text-align: center;">20</td>
+<td align="center" style="text-align: center;">Data line on the I2C bus</td>
+</tr>
+<tr>
+<td align="center" style="text-align: center;">SCL</td>
+<td align="center" style="text-align: center;">A5</td>
+<td align="center" style="text-align: center;">21</td>
+<td align="center" style="text-align: center;">Clock line on the I2C bus</td>
+</tr>
+<tr>
+<td align="center" style="text-align: center;">VIN</td>
+<td align="center" style="text-align: center;">VIN</td>
+<td align="center" style="text-align: center;">VIN</td>
+<td align="center" style="text-align: center;">VIN power input</td>
+</tr>
+<tr>
+<td align="center" style="text-align: center;">VCC</td>
+<td align="center" style="text-align: center;">VCC</td>
+<td align="center" style="text-align: center;">VCC</td>
+<td align="center" style="text-align: center;">5V power input</td>
+</tr>
+<tr>
+<td align="center" style="text-align: center;">GND</td>
+<td align="center" style="text-align: center;">GND</td>
+<td align="center" style="text-align: center;">GND</td>
+<td align="center" style="text-align: center;">Reference voltage (ground)</td>
+</tr>
+</tbody>
+</table><div class="img-caption">Pin description table</div></div>
+
+
+
+
+<h2 data-toggle="collapse" data-target="#collapse14" class="section-heading anchor"><span id="sample-code"></span>Sample Code</h2><div class="collapse in" id="collapse14"><ul>
+<li><a href="https://github.com/circuitar/Nanoshield_ADC" target="_blank">Nanoshield_ADC</a> - Arduino library for the ADC Nanoshield.</li>
+</ul></div>
+</div>
+
+                            <div class="downloads">
+                                <h2 class="section-heading anchor" data-toggle="collapse" data-target="#downloads-collapse"><span id="downloads"></span>Downloads</h2>
+                                <div class="collapse in" id="downloads-collapse">
+                                    <ul>
+
+                                            <li>
+                                                <a href="https://storage.googleapis.com/circuitar-web-media/product/142/files/ADC_4-20_v1.2_EN.pdf" target="_blank">Schematics (EN)</a>
+                                                 - ADC Nanoshield v1.2 Schematics - English
+                                            </li>
+
+                                            <li>
+                                                <a href="https://storage.googleapis.com/circuitar-web-media/product/142/files/ADC_4-20_v1.2_PT.pdf" target="_blank">Schematics (PT)</a>
+                                                 - ADC Nanoshield v1.2 Schematics - Portuguese
+                                            </li>
+
+                                            <li>
+                                                <a href="https://storage.googleapis.com/circuitar-web-media/product/142/files/ads1115.pdf" target="_blank">ADS1115 Datasheet</a>
+                                                 - Texas Instruments ADS1115 Datasheet
+                                            </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer id="footer" class="footer">
+    <div class="section-wrapper mailing-list">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <h4>Subscribe to our newsletter and receive updates about new products and projects!</h4>
+
+                    <div id="mc_embed_signup">
+                        <form action="http://circuitar.us3.list-manage.com/subscribe/post?u=5412f05045aca26494a9b9dda&amp;id=72c1e92974" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" novalidate="">
+                            <div id="mc_embed_signup_scroll">
+                                <div class="mc-field-group">
+                                    <label for="mce-EMAIL">Your email: </label>
+                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                                    <input type="button" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success">
+                                </div>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;"><input type="text" name="b_5412f05045aca26494a9b9dda_031f645539" tabindex="-1" value=""></div>
+                                <div id="mce-responses" class="clear">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-wrapper section-icon social-icon">
+        <div class="container">
+            <div class="row">
+                <div class="social-icon-phone clear-phone">
+                    <div class="span1 offset4">
+                        <a href="https://www.facebook.com/circuitar.com.br" target="_blank">
+                            <div class="social-button facebook">
+                                <i class="icon-facebook"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="span1">
+                        <a href="https://twitter.com/circuitar" target="_blank">
+                            <div class="social-button twitter">
+                                <i class="icon-twitter"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="span1">
+                        <a href="https://plus.google.com/+CircuitarBr" rel="publisher" target="_blank">
+                            <div class="social-button google-plus">
+                                <i class="icon-google-plus"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="span1">
+                        <a href="https://github.com/circuitar" target="_blank">
+                            <div class="social-button github">
+                                <i class="icon-github"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-footer">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    Copyright © 2018 Circuitar Eletrônicos<br>
+                    Circuitar Eletrônicos LTDA
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="./ADC 4-20mA_files/jquery.min.js"></script>
+<script src="./ADC 4-20mA_files/bootstrap.min.js"></script>
+<script src="./ADC 4-20mA_files/modernizr.js"></script>
+<script src="./ADC 4-20mA_files/ba-cond.min.js"></script>
+<script src="./ADC 4-20mA_files/isotope.js"></script>
+<script src="./ADC 4-20mA_files/custom.js"></script>
+<script src="./ADC 4-20mA_files/jquery.autotab.js"></script>
+<script src="./ADC 4-20mA_files/bootstrap-lightbox.min.js"></script>
+<script src="./ADC 4-20mA_files/jquery.flexslider-min.js"></script>
+
+
+
+    <script type="text/javascript">
+        function convertToSlug(text) {
+            return text.toLowerCase().replace(/[^\w ]+/g, '').replace(/ +/g, '-');
+        }
+
+        function popud3dModel(width, height) {
+            var top = (screen.height - height) / 2 - 50;
+            var left = (screen.width - width) / 2 - 10;
+            var w = window.open(
+                '/nanoshields/modulos/adc-4-20/3d?width=' + width + '&height=' + height,
+                'model',
+                'width=' + width + ',' +
+                'height=' + height + ',' +
+                'top=' + top + ',' +
+                'left=' + left + ',' +
+                'resizable=false'
+            );
+            if (window.focus) {
+                w.focus();
+            }
+            return false;
+        }
+
+        $(function() {
+            // Move img title to data-title
+            $('img[title]').each(function() {
+                $this = $(this);
+                $.data(this, 'title', $this.attr('title'));
+                $this.removeAttr('title');
+            });
+
+            // Move lightbox carousel to the clicked image
+            $('.page-carousel-image').click(function() {
+                $('#lightbox-carousel').carousel($(this).data('position'));
+                $('#lightbox-carousel').carousel('pause');
+            });
+
+            // Open lightbox for image within the page contents
+            $('.description p img').click(function() {
+                $('#lightbox-content img').attr('src', $(this).data('title'));
+                $('#lightbox-content').lightbox();
+            });
+
+            // Open popup for 3D model
+
+                $('.model-btn .btn').click(function() {
+                    popud3dModel(800, 600);
+                });
+
+
+            // Add bootstrap table classes to tables within the markdown content set correct text-align to cells
+            $('.description table').addClass('table table-bordered');
+            $('.description table [align="center"]').css('text-align', 'center');
+
+            // Process section headings
+            count = 0;
+            $('.description h2, .description h3').each(function() {
+                // Create collapsible <div> after heading
+                $collapse = $('<div/>').addClass('collapse').attr('id', 'collapse' + count);
+                $(this).after($collapse).attr('data-toggle', 'collapse').attr('data-target', '#collapse' + count);
+
+                // Move all elements after each heading into the collapsible <div>
+                if ($(this).prop("tagName") === 'H2') {
+                    $collapse.nextUntil('h1, h2').appendTo($collapse);
+                } else {
+                    $collapse.nextUntil('h1, h2, h3').appendTo($collapse);
+                }
+
+                // Make each <h2> in the description collapsible
+                $(this).addClass('section-heading');
+
+                // Expand flagged sections
+                var title = $(this).text();
+                if ($(this).text()[0] === '!') {
+                    title = title.substring(1);
+                    $(this).text(title);
+                    $collapse.addClass('in');
+                } else {
+                    $(this).addClass('collapsed');
+                }
+
+                // Add anchor to each header
+                $(this).addClass('anchor').prepend('<span id="' + convertToSlug(title) + '"></span>');
+
+                count++;
+            });
+        });
+    </script>
+
+
+<script type="text/javascript">
+    function submitNewsletterForm() {
+        ga('send', 'event', 'Click', 'Subscribe', {
+            'hitCallback': function() {
+                $('#mc-embedded-subscribe-form').submit();
+            }
+        });
+
+        return !window.ga;
+    }
+
+    $(function () {
+        $('#mc-embedded-subscribe').on('click', submitNewsletterForm);
+
+        $('#mce-EMAIL').keypress(function (e) {
+            if (e.which == 13) {
+                submitNewsletterForm();
+                return false;
+            }
+        });
+    });
+</script>
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+
+
+
+<div id="SL_balloon_obj" alt="0" style="display: block;"><div id="SL_button" class="SL_ImTranslatorLogo" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/imtranslator-s.png&quot;); display: none;"></div><div id="SL_shadow_translation_result2" style="display: none;"></div><div id="SL_shadow_translator"><div id="SL_planshet"><div id="SL_arrow_up" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/up.png&quot;);"></div><div id="SL_Bproviders"><div class="SL_BL_LABLE_ON" title="Google" id="SL_P0"><div id="SL_PN0">G</div></div><div class="SL_BL_LABLE_ON" title="Microsoft" id="SL_P1"><div id="SL_PN1">M</div></div><div class="SL_BL_LABLE_ON" title="Translator" id="SL_P2"><div id="SL_PN2">T</div></div><div class="SL_BL_LABLE_ON" title="Yandex" id="SL_P3"><div id="SL_PN3">Y</div></div></div><div id="SL_alert_bbl"><div id="SLHKclose" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/delete.png&quot;);"></div><div id="SL_alert_cont"></div></div><div id="SL_TB"><table id="SL_tables" cellspacing="1"><tr><td class="SL_td" width="10%" align="right"><input id="SL_locer" type="checkbox" title="Lock-in language"></td><td class="SL_td" width="20%" align="left"><select id="SL_lng_from" class="SL_lngs"><option value="auto">Detect language</option><option value="af">Afrikaans</option><option value="sq">Albanian</option><option value="am">Amharic</option><option value="ar">Arabic</option><option value="hy">Armenian</option><option value="az">Azerbaijani</option><option value="eu">Basque</option><option value="be">Belarusian</option><option value="bn">Bengali</option><option value="bs">Bosnian</option><option value="bg">Bulgarian</option><option value="ca">Catalan</option><option value="ceb">Cebuano</option><option value="ny">Chichewa</option><option value="zh-CN">Chinese (Simplified)</option><option value="zh-TW">Chinese (Traditional)</option><option value="co">Corsican</option><option value="hr">Croatian</option><option value="cs">Czech</option><option value="da">Danish</option><option value="nl">Dutch</option><option value="en">English</option><option value="eo">Esperanto</option><option value="et">Estonian</option><option value="tl">Filipino</option><option value="fi">Finnish</option><option value="fr">French</option><option value="fy">Frisian</option><option value="gl">Galician</option><option value="ka">Georgian</option><option value="de">German</option><option value="el">Greek</option><option value="gu">Gujarati</option><option value="ht">Haitian Creole</option><option value="ha">Hausa</option><option value="haw">Hawaiian</option><option value="iw">Hebrew</option><option value="hi">Hindi</option><option value="hmn">Hmong</option><option value="hu">Hungarian</option><option value="is">Icelandic</option><option value="ig">Igbo</option><option value="id">Indonesian</option><option value="ga">Irish</option><option value="it">Italian</option><option value="ja">Japanese</option><option value="jw">Javanese</option><option value="kn">Kannada</option><option value="kk">Kazakh</option><option value="km">Khmer</option><option value="ko">Korean</option><option value="ku">Kurdish</option><option value="ky">Kyrgyz</option><option value="lo">Lao</option><option value="la">Latin</option><option value="lv">Latvian</option><option value="lt">Lithuanian</option><option value="lb">Luxembourgish</option><option value="mk">Macedonian</option><option value="mg">Malagasy</option><option value="ms">Malay</option><option value="ml">Malayalam</option><option value="mt">Maltese</option><option value="mi">Maori</option><option value="mr">Marathi</option><option value="mn">Mongolian</option><option value="my">Myanmar (Burmese)</option><option value="ne">Nepali</option><option value="no">Norwegian</option><option value="ps">Pashto</option><option value="fa">Persian</option><option value="pl">Polish</option><option value="pt">Portuguese</option><option value="pa">Punjabi</option><option value="ro">Romanian</option><option value="ru">Russian</option><option value="sm">Samoan</option><option value="gd">Scots Gaelic</option><option value="sr">Serbian</option><option value="st">Sesotho</option><option value="sn">Shona</option><option value="sd">Sindhi</option><option value="si">Sinhala</option><option value="sk">Slovak</option><option value="sl">Slovenian</option><option value="so">Somali</option><option value="es">Spanish</option><option value="su">Sundanese</option><option value="sw">Swahili</option><option value="sv">Swedish</option><option value="tg">Tajik</option><option value="ta">Tamil</option><option value="te">Telugu</option><option value="th">Thai</option><option value="tr">Turkish</option><option value="uk">Ukrainian</option><option value="ur">Urdu</option><option value="uz">Uzbek</option><option value="vi">Vietnamese</option><option value="cy">Welsh</option><option value="xh">Xhosa</option><option value="yi">Yiddish</option><option value="yo">Yoruba</option><option value="zu">Zulu</option></select></td><td class="SL_td" width="3" align="center"><div id="SL_switch_b" title="Switch languages" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/switchb.png&quot;);"></div></td><td class="SL_td" width="20%" align="left"><select id="SL_lng_to" class="SL_lngs"><option value="af">Afrikaans</option><option value="sq">Albanian</option><option value="am">Amharic</option><option value="ar">Arabic</option><option value="hy">Armenian</option><option value="az">Azerbaijani</option><option value="eu">Basque</option><option value="be">Belarusian</option><option value="bn">Bengali</option><option value="bs">Bosnian</option><option value="bg">Bulgarian</option><option value="ca">Catalan</option><option value="ceb">Cebuano</option><option value="ny">Chichewa</option><option value="zh-CN">Chinese (Simplified)</option><option value="zh-TW">Chinese (Traditional)</option><option value="co">Corsican</option><option value="hr">Croatian</option><option value="cs">Czech</option><option value="da">Danish</option><option value="nl">Dutch</option><option value="en">English</option><option value="eo">Esperanto</option><option value="et">Estonian</option><option value="tl">Filipino</option><option value="fi">Finnish</option><option value="fr">French</option><option value="fy">Frisian</option><option value="gl">Galician</option><option value="ka">Georgian</option><option value="de">German</option><option value="el">Greek</option><option value="gu">Gujarati</option><option value="ht">Haitian Creole</option><option value="ha">Hausa</option><option value="haw">Hawaiian</option><option value="iw">Hebrew</option><option value="hi">Hindi</option><option value="hmn">Hmong</option><option value="hu">Hungarian</option><option value="is">Icelandic</option><option value="ig">Igbo</option><option value="id">Indonesian</option><option value="ga">Irish</option><option value="it">Italian</option><option value="ja">Japanese</option><option value="jw">Javanese</option><option value="kn">Kannada</option><option value="kk">Kazakh</option><option value="km">Khmer</option><option value="ko">Korean</option><option value="ku">Kurdish</option><option value="ky">Kyrgyz</option><option value="lo">Lao</option><option value="la">Latin</option><option value="lv">Latvian</option><option value="lt">Lithuanian</option><option value="lb">Luxembourgish</option><option value="mk">Macedonian</option><option value="mg">Malagasy</option><option value="ms">Malay</option><option value="ml">Malayalam</option><option value="mt">Maltese</option><option value="mi">Maori</option><option value="mr">Marathi</option><option value="mn">Mongolian</option><option value="my">Myanmar (Burmese)</option><option value="ne">Nepali</option><option value="no">Norwegian</option><option value="ps">Pashto</option><option value="fa">Persian</option><option value="pl">Polish</option><option value="pt">Portuguese</option><option value="pa">Punjabi</option><option value="ro">Romanian</option><option value="ru">Russian</option><option value="sm">Samoan</option><option value="gd">Scots Gaelic</option><option value="sr">Serbian</option><option value="st">Sesotho</option><option value="sn">Shona</option><option value="sd">Sindhi</option><option value="si">Sinhala</option><option value="sk">Slovak</option><option value="sl">Slovenian</option><option value="so">Somali</option><option selected="selected" value="es">Spanish</option><option value="su">Sundanese</option><option value="sw">Swahili</option><option value="sv">Swedish</option><option value="tg">Tajik</option><option value="ta">Tamil</option><option value="te">Telugu</option><option value="th">Thai</option><option value="tr">Turkish</option><option value="uk">Ukrainian</option><option value="ur">Urdu</option><option value="uz">Uzbek</option><option value="vi">Vietnamese</option><option value="cy">Welsh</option><option value="xh">Xhosa</option><option value="yi">Yiddish</option><option value="yo">Yoruba</option><option value="zu">Zulu</option></select></td><td class="SL_td" width="5%" align="center"> </td><td class="SL_td" width="8%" align="center"><div id="SL_TTS_voice" title="undefined" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/ttsvoice.png&quot;);"></div></td><td class="SL_td" width="8%" align="center"><div id="SL_copy" title="Copy translation" class="SL_copy" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/copy.png&quot;);"><div id="SL_copy_tip"></div></div></td><td class="SL_td" width="8%" align="center"><div id="SL_bbl_font_patch"></div><div id="SL_bbl_font" title="Font size" class="SL_bbl_font" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/font.png&quot;);"></div></td><td class="SL_td" width="8%" align="center"><div id="SL_bbl_help" title="Help" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/bhelp.png&quot;);"></div></td><td class="SL_td" width="15%" align="right"><div id="SL_pin" class="SL_pin_off" title="Pin pop-up bubble" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/pin-on.png&quot;);"></div></td></tr></table></div></div><div id="SL_shadow_translation_result"></div><div id="SL_loading" class="SL_loading" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/loading.gif&quot;);"></div><div id="SL_player2"></div><div id="SL_alert100">Text-to-speech function is limited to 200 characters</div><div id="SL_Balloon_options" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/bg3.png&quot;) rgb(255, 255, 255);"><div id="SL_arrow_down" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/down.png&quot;);"></div><table id="SL_tbl_opt" width="100%"><tr><td class="SL_td" width="5%" align="center"><input id="SL_BBL_locer" type="checkbox" checked="1" title="Show Translator&#39;s button 3 second(s)"></td><td class="SL_td" width="5%" align="left"><div id="SL_BBL_IMG" title="Show Translator&#39;s button 3 second(s)" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/bbl-logo.png&quot;);"></div></td><td class="SL_td" width="70%" align="center"><a href="chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/html/options/options.html?bbl" target="_blank" class="SL_options" title="Show options">Options</a> : <a href="chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/html/options/options.html?hist" target="_blank" class="SL_options" title="Translation History">History</a> : <a href="chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/html/options/options.html?feed" target="_blank" class="SL_options" title="ImTranslator Feedback">Feedback</a> : <a href="http://imtranslator.net/extensions/?tp=chr-ImTranslator&amp;a=0" target="_blank" class="SL_options" title="Make a small contribution">Donate</a></td><td class="SL_td" width="15%" align="right"><span id="SL_Balloon_Close" class="SL_options" title="Close">Close</span></td></tr></table></div></div></div></body></html>

@@ -1,0 +1,28 @@
+When do you think it will be ready for field testing?
+ 
+ The reason I'm looking for a solution like this is the fact that I'm developing a special time of industrial datalogger. 
+ It needs 4x a 4-20mA input and the total size has to be small. 
+ Currently, I'm working with an Arduino Nano and a Nanoshield ADC. 
+ As far as I know, the Nanoshield ADC is the only real shield that you can piggyback directly in the Nano. 
+ However, I like the Feather because it also has shields for data logging. 
+ The only thing I miss on the feather is the 4-20mA shield. 
+ So combining the feather and the Nanoshiedl ADC would be ideal for me. 
+ Or would you have a better solution?
+ 
+Pistas:
+Raulizio
+Nada especial, no es alta corriente.
+Con 0.2032mm para arriba de espesor te irá bien.
+Si tu pista es muy larga pues te recomiendo ensancharla para disminuir perdidas.
+ 
+Dani:
+
+En realidad sólo deberían soportar un poquito más de los 20mA. 
+Aquí lo importante es que la resistencia de carga pueda disipar la potencia 
+generada por esos 20mA, y en realidad solo esas pistas son de carreta xD 
+En el resto del circuito prácticamente solo tendrias voltage.
+
+De nada 😃
+carreta = las que conducirán más jejeje
+Incluso podrías saltarte el ADS1115 y conectar ese arreglo de resistencias 
+y el filtro directo al ADC de un micro, ya con 10 bits la resolucion esta decente xD
